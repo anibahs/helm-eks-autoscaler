@@ -27,7 +27,7 @@ git push
 
 
 
-helm repo add autoscaler-repo-main 'https://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@raw.githubusercontent.com/cyse7125-su24-team11/ca-helm-registry/main/'
+helm repo add autoscaler-repo-main 'https://<>@raw.githubusercontent.com/cyse7125-su24-team11/ca-helm-registry/main/'
 
 helm repo update
 helm search repo autoscaler-repo-main
