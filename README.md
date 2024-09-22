@@ -36,7 +36,7 @@ helm search repo autoscaler-repo-main
 
 
 
-helm install autoscaler autoscaler --set caRoleArn=arn:aws:iam::132386132289:role/eks-ca --set-file dockerconfigjson=/Users/shabinasingh/.docker/config.json
+helm install autoscaler autoscaler --set caRoleArn=arn:aws:iam::<>:role/eks-ca --set-file dockerconfigjson=~/.docker/config.json
 
 helm install autoscaler autoscaler --set-file dockerconfigjson=/Users/shabinasingh/.docker/config.json
 
